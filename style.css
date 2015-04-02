@@ -1,0 +1,194 @@
+html, body {
+	margin: 0 auto;	
+	height: 100%;
+	width: 100%;
+}
+
+/* {
+	border: 1px solid blue;
+}
+*/
+.header {
+	height: 115px;
+	width: 97%;
+	padding: 10px;
+}
+
+.top {
+	height: 60px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: space-between;
+}
+
+.left {
+	height: 60px;
+	width: 50%;
+}
+
+.right {
+	height: 60px;
+	width: 50%;
+}
+
+.logo {
+	height: 45px;
+	width: 45px;
+	float:left;
+	margin-top: 5px;
+}
+
+.line {
+	height: 47px;
+	width: 1px;
+	margin: 6px 15px 0px 15px;
+	background-color: #D9D9D9;
+	float: left;
+}
+
+.next {
+	height: 40px;
+	width: 40px;
+	border-radius: 3px;
+	float: left;
+	margin-top: 10px;
+}
+
+.signup {
+	height: 27px;
+	width: 140px;
+	margin-top: 5px;
+	border: 1px solid #29c705;
+	border-radius: 20px;
+	float: right;
+	color: #29c705;
+	padding-top: 8px;
+	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.search {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	margin-top: 3px;
+	float: right;
+	margin-top: 7px;
+	border: 1px solid #D9D9D9;
+	margin-right: 15px;
+}
+
+.searchIcon {
+	height: 20px;
+	width: 20px;
+	margin: 7px 0 0 7px;
+}
+
+.middle {
+	display: none;
+}
+
+.bottom {
+	height: 67.5px;
+	width: 100%;
+}
+
+.author {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+.authorInfo {
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #CDCDCD;
+	float: left;
+	margin-left: 25px;
+	margin-top: 8px;
+}
+
+.heart {
+	height: 14px;
+	width: 14px;
+	float: right;
+	margin-top: 12px;
+}
+
+.likes {
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #CDCDCD;
+	float: right;
+	margin-right: 12px;
+	text-align: right;
+}
+
+@media (min-width: 700px) {
+	.header {
+		height: 60px;
+	}
+
+	.left {
+		height: 60px;
+		width: 33%;
+	}
+
+	.middle {
+		height: 60px;
+		width: 33%;
+		display: flex;
+	}
+
+	.nextCopy {
+		height: 40px;
+		width: 40px;
+		border-radius: 3px;
+		margin-right: 4px;
+		float: left;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+
+	.published {
+		height: 40px;
+		width: 140px;
+		text-align: left;
+		font-size: 14px;
+		font-family: sans-serif;
+		float: left;
+		margin-top: 13px;
+		color: #8e8989;
+	}
+
+	.pubs {
+		color: #d3d3d3;
+	}
+
+	.right {
+		height: 60px;
+		width: 33%;
+	}
+
+	.line {
+		display: none;
+	}
+
+	.next {
+		display: none;
+	}
+
+	.bottom {
+		display: none;
+	}
+}
+
+.topPic {
+	height: auto;
+	width: 100%;
+}
